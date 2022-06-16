@@ -1,2 +1,2 @@
-# math_crypto
-Mathematical Cryptography implementations 
+# Mathematical Cryptography implementations
+ 
