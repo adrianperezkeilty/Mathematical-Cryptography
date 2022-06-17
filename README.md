@@ -1,6 +1,6 @@
 # Mathematical Cryptography implementations
  
-## DLP, factoring and primality tests
+## Discrete logarithm problem algorithms, factoring and primality tests
 - discrete_log_shanks.py  
 - factorization_pollard.py  
 - factorization_rho_method.py  
