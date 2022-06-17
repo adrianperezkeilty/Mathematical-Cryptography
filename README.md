@@ -14,9 +14,12 @@
 ## Arithmetic in convolution polynomial rings
 - convolutional_ring_arithmetic.py
 
+## Lattices
+- Gauss base reduction for solving SVP in $R^2$  
+
 ## NTRU cryptosystem (under construction for scalability)
 - ntru_cryptosystem.py
 
-## Pseudo Random Number Generators (PRNGs)
+## Pseudo Random Number Generators (under construction for scalability)
 - prng_bbs.py  
 - prng_lcg.py  
