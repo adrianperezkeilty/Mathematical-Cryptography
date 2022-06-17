@@ -5,7 +5,7 @@
 
 import numpy as np
 import string
-from ecc_aux import ec_add, ec_double_and_add, ec_points_over_F_p, ec_koblitz_encode, ec_point_check
+from elliptic_curve_aux import ec_add, ec_double_and_add, ec_points_over_F_p, ec_koblitz_encode, ec_point_check
 from random import randint
 
 # Private key:  n               -> Element in F_p
