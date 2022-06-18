@@ -14,7 +14,7 @@
 ## Arithmetic in convolution polynomial rings
 - convolutional_ring_arithmetic.py
 
-## Lattices. Gauss base reduction for solving SVP in $R^2$
+## Lattices. Gauss base reduction for solving SVP in two dimensions
 -  lattices_gauss_reduction.py
 
 ## NTRU cryptosystem (under construction for scalability)
