@@ -1,4 +1,4 @@
-# Mathematical Cryptography implementations
+# Mathematical Cryptography, custom implementations.
  
 ## DLP algorithms, factoring and primality tests
 - discrete_log_shanks.py  
