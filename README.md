@@ -52,6 +52,6 @@ $P, Q$ $\rightarrow$ points in $ec$
 True
 ```
 
-## Pseudo Random Number Generators (under construction for scalability)
-- prng_bbs.py  
-- prng_lcg.py  
+## Pseudo Random Number Generators (statistical tests)
+- Blum Blum Shub (BBS) generator (prng_bbs.py)  
+- Linear Congruential Generator (LCG) (prng_lcg.py)
