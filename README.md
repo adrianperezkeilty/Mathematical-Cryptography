@@ -42,6 +42,8 @@ Integers with prime factors smaller than or equal to 20 :
 >>> x = miller_rabin_primality_test.mr(5617)
 >>> x.witness(3)
 1224
+>>> miller_rabin_primality_test.primes(a = 300, b = 350, k = 10)
+[307, 311, 313, 317, 331, 337, 347, 349]
 ```
 ## Elliptic curve cryptography
 $p$ $\rightarrow$ prime  
