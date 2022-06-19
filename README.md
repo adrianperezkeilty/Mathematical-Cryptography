@@ -40,10 +40,7 @@ $P, Q$ $\rightarrow$ points in ec
 (-11, 6567)
 ```
 
-## Arithmetic in convolution polynomial rings
-- convolutional_ring_arithmetic.py
-
-## NTRU cryptosystem (under construction for scalability)
+## NTRU Public key cryptosystem
 - ntru_cryptosystem.py
 ```
 >>> (N, p, q, d) = (13,5,73,2)
@@ -54,6 +51,9 @@ $P, Q$ $\rightarrow$ points in ec
 >>> x.decrypt(c, f) == m
 True
 ```
+## Arithmetic in convolution polynomial rings
+- convolutional_ring_arithmetic.py
+
 ## Pseudo Random Number Generators (under construction for scalability)
 - prng_bbs.py  
 - prng_lcg.py  
