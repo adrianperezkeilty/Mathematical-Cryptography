@@ -9,7 +9,7 @@ import math
 # Miller-Rabin primality test
 # n -> integer to test
 # w -> witness
-class MR:
+class mr:
 
     def __init__(self, n):
         self.n = n
@@ -38,11 +38,11 @@ class MR:
         return self.w
 
 
-# Primes in [a,b] according to MR test with k tries
+# Primes in [a,b] according to mr test with k tries
 def primes(a,b,k):
     L=[]
     for i in range(a,b+1):
-        if MR(i).witness(k) is None:
+        if mr(i).witness(k) is None:
             L.append(i)
     return L
 
