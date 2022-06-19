@@ -9,8 +9,13 @@
 
 ## Elliptic curve cryptography
 - elliptic_curve_elgamal.py
+
 - elliptic_curve_shanks.py
-- elliptic_curve_lenstra.py
+- elliptic_curve_lenstra.py  
+```
+>>> elliptic_curve_lenstra.lenstra(N = 561793, ec = (1,7), bound = 100)
+(347, 1619)
+```
 
 ## Arithmetic in convolution polynomial rings
 - convolutional_ring_arithmetic.py
