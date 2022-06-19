@@ -10,6 +10,7 @@
 ## Elliptic curve cryptography
 - elliptic_curve_elgamal.py
 - elliptic_curve_shanks.py
+- elliptic_curve_lenstra.py
 
 ## Arithmetic in convolution polynomial rings
 - convolutional_ring_arithmetic.py
