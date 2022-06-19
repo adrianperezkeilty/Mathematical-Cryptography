@@ -8,9 +8,9 @@
 - miller_rabin_primality_test.py
 
 ## Elliptic curve cryptography
-$p$ -> prime  
-$ec = (a,b)$ -> Elliptic curve  
-$P, Q$ -> points in ec  
+$p$ $\rightarrow$ prime  
+$ec = (a,b)$ $\rightarrow$ Elliptic curve  
+$P, Q$ $\rightarrow$ points in ec  
 
 - elliptic_curve_elgamal.py  
 ```
