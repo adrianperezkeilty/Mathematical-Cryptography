@@ -17,7 +17,7 @@
 >>> factorization_rho_method.rho(n = 56198779982311, x0 = 14)
 (90031, 624215881)
 ```
-- Quadratic sieve (factorization_quadratic_sieve.py)
+- Quadratic sieve (factorization_quadratic_sieve.py)  
 Returns system of congruencial equations for manual resolution:
 ```
 >>> factorization_quadratic_sieve.quadratic_sieve(n = 221, length_sieve = 15)
