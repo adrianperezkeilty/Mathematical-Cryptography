@@ -1,7 +1,7 @@
 # Mathematical Cryptography (custom implementations)
  
 ## DLP, factoring and primality tests
-- Solving $a^x = b \mod{n}$: Shanks' babystep-giantstep algorithm (discrete_log_shanks.py)
+- Shanks' babystep-giantstep algorithm (discrete_log_shanks.py)
 ```
 >>> (a, b, n) = (26,2861,3079)
 >>> discrete_log_shanks.shanks(a, b, n)
