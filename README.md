@@ -20,7 +20,7 @@ $P, Q$ $\rightarrow$ points in ec
 >>> x.elgamal_ec_decrypt(n = 33, cipher = C)
 'helloxelgamalxx'
 ```
-- Solve $P = nQ$ in $E(\mathbb F_p)$ (elliptic_curve_shanks.py)  
+- ECDLP Shanks: Solve $P = nQ$ in $E(\mathbb F_p)$ (elliptic_curve_shanks.py)  
 
 ```
 >>> (p, ec, P, n) = (175783, (1,1), [0, 1], 33)
@@ -28,7 +28,7 @@ $P, Q$ $\rightarrow$ points in ec
 >>> elliptic_curve_shanks.ec_shanks(p, ec, P, Q)
 33
 ```
-- Factorization of integer using ec (elliptic_curve_lenstra.py)
+- Lenstra factorization of integers in $E(\mathbb F_p)$ (elliptic_curve_lenstra.py)
 ```
 >>> elliptic_curve_lenstra.lenstra(N = 561793, ec = (1,7), bound = 100)
 (347, 1619)
