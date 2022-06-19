@@ -8,8 +8,14 @@
 - miller_rabin_primality_test.py
 
 ## Elliptic curve cryptography
-- elliptic_curve_elgamal.py
-
+- elliptic_curve_elgamal.py  
+```
+>>> x = elliptic_curve_elgamal.elgamal_ec(prime = 175783, ec = (1, 1), P = [0, 1])
+>>> Q = elliptic_curve_elgamal.ec_double_and_add(p = x.p, ec = x.ec, P = x.P, n = 33)
+>>> C = x.elgamal_ec_encrypt( Q, 'helloxelgamal' )
+>>> x.elgamal_ec_decrypt(n = 33, cipher = C)
+'helloxelgamalxx'
+```
 - elliptic_curve_shanks.py
 - elliptic_curve_lenstra.py  
 ```
