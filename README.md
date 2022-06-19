@@ -45,7 +45,15 @@ $P, Q$ $\rightarrow$ points in ec
 
 ## NTRU cryptosystem (under construction for scalability)
 - ntru_cryptosystem.py
-
+```
+>>> (N, p, q, d) = (13,5,73,2)
+>>> x = ntru_cryptosystem.ntru(N, p, q, d)
+>>> (f, g, h) = x.random_keys()
+>>> m = [0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 0, 1, 2]
+>>> c = x.encrypt(m, h)
+>>> x.decrypt(c, f) == m
+True
+```
 ## Pseudo Random Number Generators (under construction for scalability)
 - prng_bbs.py  
 - prng_lcg.py  
