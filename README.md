@@ -51,8 +51,6 @@ $P, Q$ $\rightarrow$ points in $ec$
 >>> x.decrypt(c, f) == m
 True
 ```
-## Arithmetic in convolution polynomial rings
-- convolutional_ring_arithmetic.py
 
 ## Pseudo Random Number Generators (under construction for scalability)
 - prng_bbs.py  
