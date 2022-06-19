@@ -9,7 +9,7 @@
 
 ## Elliptic curve cryptography
 $p$ $\rightarrow$ prime  
-$ec = (a,b)$ $\rightarrow$ Elliptic curve $y^2=x^3+ax+b$
+$ec = (a,b)$ $\rightarrow$ Elliptic curve $y^2=x^3+ax+b$  
 $P, Q$ $\rightarrow$ points in $ec$
 
 - ElGamal cryptosystem using 3-letter blocks (elliptic_curve_elgamal.py) 
