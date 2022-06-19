@@ -12,7 +12,7 @@ $p$ $\rightarrow$ prime
 $ec = (a,b)$ $\rightarrow$ Elliptic curve  
 $P, Q$ $\rightarrow$ points in ec  
 
-- elliptic_curve_elgamal.py  
+- ElGamal cryptosystem (elliptic_curve_elgamal.py) 
 ```
 >>> x = elliptic_curve_elgamal.elgamal_ec(prime = 175783, ec = (1, 1), P = [0, 1])
 >>> Q = elliptic_curve_elgamal.ec_double_and_add(p = x.p, ec = x.ec, P = x.P, n = 33)
@@ -20,15 +20,15 @@ $P, Q$ $\rightarrow$ points in ec
 >>> x.elgamal_ec_decrypt(n = 33, cipher = C)
 'helloxelgamalxx'
 ```
-- elliptic_curve_shanks.py  
-Solve $P = nQ$ in $E(\mathbb F_p)$.
+- Solve $P = nQ$ in $E(\mathbb F_p)$ (elliptic_curve_shanks.py)  
+
 ```
 >>> (p, ec, P, n) = (175783, (1,1), [0, 1], 33)
 >>> Q = elliptic_curve_shanks.ec_double_and_add(p, ec, P, n)
 >>> elliptic_curve_shanks.ec_shanks(p, ec, P, Q)
 33
 ```
-- elliptic_curve_lenstra.py  
+- Factorization of integer using ec (elliptic_curve_lenstra.py)
 ```
 >>> elliptic_curve_lenstra.lenstra(N = 561793, ec = (1,7), bound = 100)
 (347, 1619)
